@@ -1,0 +1,39 @@
+[options]
+girs_dir = "../gir-files"
+library = "GtkLayerShell"
+version = "0.1"
+target_path = "."
+min_cfg_version = "0.1"
+work_mode = "normal"
+generate_safety_asserts = true
+deprecate_by_min_version = true
+single_version_file = true
+
+generate = [
+    "GtkLayerShell.Edge",
+    "GtkLayerShell.Layer",
+    "GtkLayerShell.*",
+]
+
+#The following is needed for commented out functions
+manual = [
+    "Gtk.Window",
+    "Gdk.Monitor",
+    #"Gtk.WindowType",
+    #"GdkPixbuf.Pixbuf",
+    #"Gtk.Widget",
+    #"GLib.Error",
+    #"Gdk.EventKey",
+    #"Gtk.AccelGroup",
+    #"Gdk.WindowEdge",
+    #"Gdk.Screen",
+    #"Gtk.Application",
+    #"Gdk.Gravity",
+    #"Gtk.WindowGroup",
+   # "Gdk.ModifierType",
+   # "Gdk.Rectangle",
+   # "Gdk.WindowTypeHint",
+   # "Gdk.Geometry",
+   # "Gdk.WindowHints",
+   # "Gtk.WindowPosition",
+]
