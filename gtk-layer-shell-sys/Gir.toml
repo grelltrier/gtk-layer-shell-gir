@@ -4,14 +4,14 @@ version = "0.1"
 target_path = "."
 min_cfg_version = "0.1"
 work_mode = "sys"
-girs_dir = "../../gir-files/"
+girs_dir = "../gir-files/"
 
 external_libraries = [
     "GLib",
     "Gdk",
     "Gtk",
     # the following might not be needed
-    "GdkPixbuf",
-    "Gio",
-    "GObject",
+    # "GdkPixbuf",
+    # "Gio",
+    # "GObject",
 ]
