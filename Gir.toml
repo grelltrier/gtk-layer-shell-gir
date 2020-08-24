@@ -15,25 +15,7 @@ generate = [
     "GtkLayerShell.*",
 ]
 
-#The following is needed for commented out functions
 manual = [
     "Gtk.Window",
     "Gdk.Monitor",
-    #"Gtk.WindowType",
-    #"GdkPixbuf.Pixbuf",
-    #"Gtk.Widget",
-    #"GLib.Error",
-    #"Gdk.EventKey",
-    #"Gtk.AccelGroup",
-    #"Gdk.WindowEdge",
-    #"Gdk.Screen",
-    #"Gtk.Application",
-    #"Gdk.Gravity",
-    #"Gtk.WindowGroup",
-   # "Gdk.ModifierType",
-   # "Gdk.Rectangle",
-   # "Gdk.WindowTypeHint",
-   # "Gdk.Geometry",
-   # "Gdk.WindowHints",
-   # "Gtk.WindowPosition",
 ]

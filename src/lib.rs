@@ -9,11 +9,6 @@ extern crate libc;
 #[macro_use]
 extern crate bitflags;
 
-// Add
-// use super::enums::*;
-// to functions.rs
-
-// Is this correct???
 /// Asserts that this is the main thread and either `gdk::init` or `gtk::init` has been called.
 macro_rules! assert_initialized_main_thread {
     () => {
@@ -32,15 +27,9 @@ macro_rules! skip_assert_initialized {
     () => {};
 }
 
+pub use self::auto::functions::*;
+pub use self::Edge;
+pub use self::Layer;
 pub use auto::*;
 
 mod auto;
-use auto::*;
-
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        assert_eq!(2 + 2, 4);
-    }
-}
