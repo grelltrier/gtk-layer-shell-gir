@@ -1,13 +1,11 @@
-#[macro_use]
-extern crate glib;
 extern crate gdk;
+extern crate glib;
 extern crate glib_sys;
 extern crate gtk;
 extern crate gtk_layer_shell_sys;
 
-extern crate libc;
-#[macro_use]
 extern crate bitflags;
+extern crate libc;
 
 /// Asserts that this is the main thread and either `gdk::init` or `gtk::init` has been called.
 macro_rules! assert_initialized_main_thread {
