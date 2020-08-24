@@ -1,4 +1,4 @@
-# gtk-layer-shell-gir
+# gtk-layer-shell-sys
 Unsafe FFI bindings for gtk-layer-shell, generated from .gir file
 
 ## Usage

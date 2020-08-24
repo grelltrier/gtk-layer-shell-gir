@@ -1,4 +1,4 @@
-# gtk-layer-shell-gir
+# gtk-layer-shell
 Safe wrapper for gtk-layer-shell, generated from .gir file
 
 ## Usage
