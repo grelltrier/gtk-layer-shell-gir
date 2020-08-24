@@ -3,6 +3,11 @@ name = "gtk-layer-shell"
 version = "0.1.0"
 authors = ["pentamassiv <pentamassiv@posteo.de>"]
 edition = "2018"
+license = "MIT"
+description = "Save gir-generated wrapper for gtk-layer-shell"
+repository = "https://github.com/grelltrier/gtk-layer-shell-gir/tree/master/gtk-layer-shell-sys"
+keywords = ["gtk", "gtk-layer-shell", "wayland", "gir", "wrapper"]
+categories = ["api-bindings", "gui"]
 
 [dependencies]
 libc = "0.2"
