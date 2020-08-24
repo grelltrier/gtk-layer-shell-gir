@@ -10,8 +10,4 @@ external_libraries = [
     "GLib",
     "Gdk",
     "Gtk",
-    # the following might not be needed
-    # "GdkPixbuf",
-    # "Gio",
-    # "GObject",
 ]
