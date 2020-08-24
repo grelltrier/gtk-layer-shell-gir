@@ -1,3 +1,4 @@
 /target
 Cargo.lock
 gtk-layer-shell-sys/target
+.cargo/config

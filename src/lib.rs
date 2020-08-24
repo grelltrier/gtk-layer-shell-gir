@@ -26,8 +26,6 @@ macro_rules! skip_assert_initialized {
 }
 
 pub use self::auto::functions::*;
-pub use self::Edge;
-pub use self::Layer;
 pub use auto::*;
 
 mod auto;
