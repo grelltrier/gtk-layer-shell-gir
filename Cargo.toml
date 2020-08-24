@@ -1,6 +1,6 @@
 [package]
 name = "gtk-layer-shell"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["pentamassiv <pentamassiv@posteo.de>"]
 edition = "2018"
 license = "MIT"
