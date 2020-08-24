@@ -23,12 +23,15 @@ libc = "0.2"
 
 [dependencies.glib-sys]
 git = "https://github.com/gtk-rs/sys"
+version = "0.10"
 
 [dependencies.gdk-sys]
 git = "https://github.com/gtk-rs/sys"
+version = "0.10.0"
 
 [dependencies.gtk-sys]
 git = "https://github.com/gtk-rs/sys"
+version = "0.10.0"
 
 [build-dependencies]
 system-deps = "1.3"
