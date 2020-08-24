@@ -2,14 +2,14 @@
 Safe wrapper for gtk-layer-shell, generated from .gir file
 
 ## Usage
-The wrapper works just like described in gtk-layer-shell.h, except that you can use Rust types instead of pointers and such. Unfortunatly I am struggling to auto-generate the docs.
+The wrapper works just like described in gtk-layer-shell.h, except that you can use Rust types instead of pointers and such. Unfortunately I am struggling to auto-generate the docs.
 
 ## Generate the wrapper
-Generating the wrapper yourself is not neccessary to be able to use it. If you want to do it anyways, just clone the repository and the submodule "gir-files", open una terminal in it and r
+Generating the wrapper yourself is not necessary to be able to use it. If you want to do it anyways, just clone the repository and the submodule "gir-files", open una terminal in it and r
 ```bash
 gir
 ```
-unfortunatly you need to change the functions.rs file in the /src/auto folder. Please change
+unfortunately you need to change the functions.rs file in the /src/auto folder. Please change
 ```rust
 use Edge;
 use Layer;
