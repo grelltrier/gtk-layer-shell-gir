@@ -27,11 +27,11 @@ version = "0.10"
 
 [dependencies.gdk-sys]
 git = "https://github.com/gtk-rs/sys"
-version = "0.10.0"
+version = "0.10"
 
 [dependencies.gtk-sys]
 git = "https://github.com/gtk-rs/sys"
-version = "0.10.0"
+version = "0.10"
 
 [build-dependencies]
 system-deps = "1.3"
