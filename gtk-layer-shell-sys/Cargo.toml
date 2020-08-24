@@ -3,6 +3,7 @@ name = "gtk-layer-shell-sys"
 version = "0.0.1"
 links = "gtk_layer_shell"
 build = "build.rs"
+license = "MIT"
 description = "Unsave gir-generated FFI bindings for gtk-layer-shell"
 repository = "https://github.com/grelltrier/gtk-layer-shell-gir"
 keywords = ["gtk", "gtk-layer-shell", "wayland", "FFI", "unsafe"]
