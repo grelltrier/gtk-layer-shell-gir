@@ -11,7 +11,7 @@ categories = ["api-bindings", "gui"]
 [dependencies]
 libc = "0.2"
 bitflags = "1.0"
-gtk-layer-shell-sys = "0.0.2"
+gtk-layer-shell-sys = "0.1.0"
 glib = "0.10.0"
 glib-sys= "0.10.0"
 gdk={version = "0.13", features= ["v3_22"]}

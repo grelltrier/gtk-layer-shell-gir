@@ -1,6 +1,6 @@
 [package]
 name = "gtk-layer-shell-sys"
-version = "0.0.2"
+version = "0.1.0"
 authors = ["pentamassiv <pentamassiv@posteo.de>"]
 links = "gtk_layer_shell"
 build = "build.rs"
