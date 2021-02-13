@@ -16,6 +16,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: Install GTK libraries
+      run: sudo apt-get install libgtk-3-dev
+    - name: Get gtk-layer-shell
+      run: sudo apt-get install libgtk-layer-shell-dev
     - name: Build
       run: cargo build --verbose
     - name: Run tests
