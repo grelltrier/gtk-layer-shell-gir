@@ -1,3 +1,5 @@
+[![Crate](https://img.shields.io/crates/v/gtk-layer-shell-sys.svg)](https://crates.io/crates/gtk-layer-shell-sys)
+
 # gtk-layer-shell-sys
 Unsafe FFI bindings for gtk-layer-shell, generated from .gir file
 
