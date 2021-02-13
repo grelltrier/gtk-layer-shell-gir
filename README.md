@@ -1,3 +1,6 @@
+[![Crate](https://img.shields.io/crates/v/gtk-layer-shell.svg)](https://crates.io/crates/gtk-layer-shell)
+[![dependency status](https://deps.rs/repo/github/grelltrier/gtk-layer-shell-gir/status.svg)](https://deps.rs/repo/github/grelltrier/gtk-layer-shell-gir)
+
 # gtk-layer-shell
 Safe wrapper for gtk-layer-shell, generated from .gir file
 
