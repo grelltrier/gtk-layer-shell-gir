@@ -1,6 +1,6 @@
 [package]
 name = "gtk-layer-shell-sys"
-version = "0.2.0"
+version = "0.2.1"
 links = "gtk_layer_shell"
 build = "build.rs"
 authors = ["pentamassiv <pentamassiv@posteo.de>"]
@@ -24,9 +24,9 @@ name = "gtk_layer_shell_sys"
 
 [dependencies]
 libc = "0.2"
-glib-sys = "0.10.1"
-gdk-sys = "0.10.0"
-gtk-sys = "0.10.0"
+glib-sys = "0.14"
+gdk-sys = "0.14"
+gtk-sys = "0.14"
 
 [build-dependencies]
 system-deps = "1.3"
