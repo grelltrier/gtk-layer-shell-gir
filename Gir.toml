@@ -1,5 +1,5 @@
 [options]
-girs_dir = "./gir-files"
+girs_directories = ["./gir-files"]
 library = "GtkLayerShell"
 version = "0.1"
 target_path = "."
@@ -12,6 +12,7 @@ single_version_file = true
 generate = [
     "GtkLayerShell.Edge",
     "GtkLayerShell.Layer",
+    "GtkLayerShell.KeyboardMode",
     "GtkLayerShell.*",
 ]
 

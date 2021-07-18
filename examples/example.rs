@@ -2,11 +2,12 @@
 // This is analogous to:
 // https://github.com/wmww/gtk-layer-shell/blob/master/example/example.c
 
+// Currently this example is broken and needs to be fixed
+
 extern crate gio;
 extern crate gtk;
 extern crate gtk_layer_shell;
 
-use gio::prelude::*;
 use gtk::prelude::*;
 
 use std::env::args;
