@@ -16,7 +16,7 @@ glib = "0.14"
 glib-sys = "0.14"
 gdk = {version = "0.14", features= ["v3_22"]}
 gtk = "0.14"
-gtk-layer-shell-sys = { path = "./gtk-layer-shell-sys" }
+gtk-layer-shell-sys = "0.2"
 
 [dev-dependencies]
 gio = "0.14"
