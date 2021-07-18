@@ -29,7 +29,7 @@ use gtk_layer_shell_sys as ffi; // Manual edit
 This however is overwritten each time gir is ran again so it is a bit hacky. Let me know how I can do this properly
 
 ## TODO
-- Auto-generate the documentation
+Auto-generate the documentation
 
 ## Contributing
 Pull requests are very welcome :)
