@@ -3,15 +3,10 @@
 ![Build](https://github.com/grelltrier/gtk-layer-shell-gir/workflows/Build/badge.svg)
 
 # gtk-layer-shell
-Safe wrapper for gtk-layer-shell, generated from .gir file
+Safe wrapper for [gtk-layer-shell](https://github.com/wmww/gtk-layer-shell), generated from .gir file
 
 ## Usage
 The wrapper works just like described in gtk-layer-shell.h, except that you can use Rust types instead of pointers and such. Unfortunately I am struggling to auto-generate the docs.
-Examples can be found in the `examples/` directory. To run an example, execute:
-
-```bash
-$ cargo run --example example
-```
 
 ## Generate the wrapper
 Generating the wrapper yourself is not necessary to be able to use it. If you want to do it anyways, just clone the repository and the submodule "gir-files" with
@@ -27,10 +22,11 @@ After this you can run
 ```bash
 cargo build
 ```
-There should not have been any errors, just some warnings about unused stuff.
-
-## Why are you not using Rust 2018?
-Gir currently has some issues with Rust 2018, which is why the 2015 version is used to generate the bindings (see this [issue](https://github.com/gtk-rs/gir/issues/746)). No worries, you can still use the generated bindings with Rust 2018.
+There should not have been any errors, just some warnings about unused stuff. Currently I am getting the error that the crate ffi can not be found. I manually added the following line to enums.rs and functions.rs.
+```bash
+use gtk_layer_shell_sys as ffi; // Manual edit
+```
+This however is overwritten each time gir is ran again so it is a bit hacky. Let me know how I can do this properly
 
 ## TODO
 - Auto-generate the documentation
