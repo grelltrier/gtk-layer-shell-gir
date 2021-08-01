@@ -20,3 +20,9 @@ gtk-layer-shell-sys = "0.2"
 
 [dev-dependencies]
 gio = "0.14"
+
+[features]
+v0_4 = ["gtk-layer-shell-sys/v0_4"]
+v0_5 = ["v0_4", "gtk-layer-shell-sys/v0_5"]
+v0_6 = ["v0_5", "gtk-layer-shell-sys/v0_6"]
+dox = []
