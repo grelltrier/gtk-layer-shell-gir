@@ -1,6 +1,6 @@
 [package]
 name = "gtk-layer-shell-sys"
-version = "0.2.2"
+version = "0.2.3"
 links = "\"gtk-layer-shell\""
 edition = "2018"
 build = "build.rs"
