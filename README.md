@@ -2,6 +2,9 @@
 [![dependency status](https://deps.rs/repo/github/grelltrier/gtk-layer-shell-gir/status.svg)](https://deps.rs/repo/github/grelltrier/gtk-layer-shell-gir)
 ![Build](https://github.com/grelltrier/gtk-layer-shell-gir/workflows/Build/badge.svg)
 
+THIS REPO WAS ARCHIVED BECAUSE I MOVED IT TO https://github.com/pentamassiv/gtk-layer-shell-gir
+
+
 # gtk-layer-shell
 Safe wrapper for [gtk-layer-shell](https://github.com/wmww/gtk-layer-shell), generated from .gir file
 
